@@ -35,7 +35,7 @@
         }
 
         private void initialize() {
-            commandHistory= new CommandHistory();
+            commandHistory = new CommandHistory();
             JTabbedPaneClass = new JTabbedPaneClass(mediator);
             ActionMenagerState actionMenagerState = new ActionMenagerState();
             MessageGenerator messageGenerator = new MessageGenerator();
@@ -45,11 +45,7 @@
 
             JTree projectExplorerTree = draftTreeImplementation.getTreeView();
 
-            Toolkit kit = Toolkit.getDefaultToolkit();
-            Dimension screenSize = kit.getScreenSize();
-            int screenHeight = screenSize.height;
-            int screenWidth = screenSize.width;
-            setSize(screenWidth / 2, screenHeight / 2);
+            setSize(1280, 720);
             setLocationRelativeTo(null);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setTitle("DraftRoom");
@@ -64,42 +60,51 @@
 
             JScrollPane scroll = new JScrollPane(projectExplorerTree);
             scroll.setMinimumSize(new Dimension(200, 150));
+            scroll.setBackground(new Color(0xF5F6F5)); // Match background
 
             JSplitPane split = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, scroll, JTabbedPaneClass);
+            split.setDividerLocation(250);
+            split.setOneTouchExpandable(true);
+            split.setBackground(new Color(0xF5F6F5));
             getContentPane().add(split, BorderLayout.CENTER);
 
-            // Kreiraj panel za centriranje stateToolBar-a
             JPanel rightPanel = new JPanel();
             rightPanel.setLayout(new GridBagLayout());
             GridBagConstraints gbc = new GridBagConstraints();
-
-            // Postavi centriranje po vertikali
-            gbc.gridx = 0; // Kolona 0
-            gbc.gridy = 0; // Red 0
-            gbc.weightx = 1.0; // Rasporedi horizontalno (ako je potrebno)
-            gbc.weighty = 1.0; // Rasporedi vertikalno
-            gbc.anchor = GridBagConstraints.CENTER; // Centriranje
-            gbc.fill = GridBagConstraints.NONE; // Nemoj širiti komponentu
-
+            gbc.gridx = 0;
+            gbc.gridy = 0;
+            gbc.weightx = 1.0;
+            gbc.weighty = 1.0;
+            gbc.anchor = GridBagConstraints.CENTER;
+            gbc.fill = GridBagConstraints.NONE;
             rightPanel.add(stateToolBar, gbc);
-            rightPanel.setBackground((new Color(0xE6E6F5)));
-
-            // Dodaj desni panel (sa centriranim toolbar-om) na EAST poziciju
+            rightPanel.setBackground(new Color(0xF5F6F5));
             getContentPane().add(rightPanel, BorderLayout.EAST);
 
-            undoButton= new JButton("undo");
-            redoButton= new JButton("redo");
-
-             setupUndoRedoButtons();
+            undoButton = new JButton("Undo");
+            redoButton = new JButton("Redo");
+            styleButton(undoButton);
+            styleButton(redoButton);
+            setupUndoRedoButtons();
             toolBar.add(undoButton);
             toolBar.add(redoButton);
+        }
 
-
-
-            split.setDividerLocation(250);
-            split.setOneTouchExpandable(true);
-
-            this.setSize(1280, 720);
+        private void styleButton(JButton button) {
+            button.setFont(new Font("Segoe UI", Font.PLAIN, 12));
+            button.setBackground(new Color(0xF5F6F5));
+            button.setForeground(new Color(0x333333));
+            button.setBorder(BorderFactory.createEmptyBorder(8, 12, 8, 12));
+            button.setFocusPainted(false);
+            button.setContentAreaFilled(false);
+            button.addMouseListener(new java.awt.event.MouseAdapter() {
+                public void mouseEntered(java.awt.event.MouseEvent evt) {
+                    button.setBackground(new Color(0xE0E0E0));
+                }
+                public void mouseExited(java.awt.event.MouseEvent evt) {
+                    button.setBackground(new Color(0xF5F6F5));
+                }
+            });
         }
 
         public static MainFrame getUniqueInstance() {

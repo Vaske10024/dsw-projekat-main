@@ -152,7 +152,10 @@ public class RoomView extends JPanel implements MouseListener, MouseMotionListen
         zoomLabel = new JLabel();
         updateZoomLabel();
         zoomLabel.setOpaque(true);
-        zoomLabel.setBackground(Color.LIGHT_GRAY);
+        zoomLabel.setBackground(new Color(0x2D2D2D)); // Dark background for contrast
+        zoomLabel.setForeground(Color.WHITE); // White text
+        zoomLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14)); // Modern font
+        zoomLabel.setBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10)); // Padding
         zoomLabel.setHorizontalAlignment(SwingConstants.RIGHT);
         add(zoomLabel, BorderLayout.SOUTH);
     }
@@ -206,16 +209,16 @@ public class RoomView extends JPanel implements MouseListener, MouseMotionListen
     int i =0;
 
     private void initializeDrawingPanel() {
-
         drawingPanel = new JPanel() {
             @Override
             public void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                if(i==0){
+                if (i == 0) {
                     fitToPanel();
                     i++;
                 }
                 Graphics2D g2d = (Graphics2D) g;
+                g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); // Smooth edges
                 drawGrid(g2d);
                 Point roomOffset = drawRoom(g2d);
                 offsetSobe = roomOffset;
@@ -225,27 +228,25 @@ public class RoomView extends JPanel implements MouseListener, MouseMotionListen
                     g2d.translate(roomOffset.x / scaleFactor, roomOffset.y / scaleFactor);
                     if (mediator.getSelectedNodes().contains(painter)) {
                         Rectangle bounds = painter.getBounds();
+                        g2d.setColor(new Color(0x0078D7)); // Modern blue for selection
+                        g2d.setStroke(new BasicStroke(2));
                         g2d.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
                     }
                     painter.paint(g2d);
                     g2d.translate(-roomOffset.x / scaleFactor, -roomOffset.y / scaleFactor);
                 }
-                 drawSelectionRectangle(g2d,offsetSobe);
+                drawSelectionRectangle(g2d, offsetSobe);
                 g2d.setTransform(originalTransform);
             }
-
-            @Override
-            public Dimension getPreferredSize() {
-                return getSize();
-            }
         };
-
+        drawingPanel.setBackground(new Color(0xF5F6F5)); // Soft gray background
         add(drawingPanel, BorderLayout.CENTER);
     }
 
+    // Update drawGrid for a subtler grid
     private void drawGrid(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
-        g2d.setColor(Color.LIGHT_GRAY);
+        g2d.setColor(new Color(0xD3D3D3)); // Lighter gray for grid
         int gridSize = (int) (20 * scaleFactor);
         int width = drawingPanel.getWidth();
         int height = drawingPanel.getHeight();

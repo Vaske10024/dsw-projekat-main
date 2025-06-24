@@ -9,7 +9,7 @@ import raf.draft.dsw.model.structures.Room;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.geom.RoundRectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -36,33 +36,71 @@ public class RoomOrganizer extends JFrame {
         setTitle("Organize My Room");
         setSize(500, 400);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setLayout(new BorderLayout());
+        setLocationRelativeTo(null);
+        getContentPane().setBackground(new Color(0xFAFAFA));
+        setLayout(new BorderLayout(10, 10));
 
-        // Panel za unos dimenzija
-        JPanel inputPanel = new JPanel();
-        inputPanel.add(new JLabel("Width:"));
+        // Style input panel
+        JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
+        inputPanel.setBackground(new Color(0xFAFAFA));
+        inputPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+
+        JLabel widthLabel = new JLabel("Width:");
+        widthLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        widthLabel.setForeground(new Color(0x2D2D2D));
+        inputPanel.add(widthLabel);
+
         widthField = new JTextField(5);
+        widthField.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        widthField.setBackground(new Color(0xFFFFFF));
+        widthField.setForeground(new Color(0x2D2D2D));
+        widthField.setBorder(BorderFactory.createLineBorder(new Color(0xE0E0E0), 1));
         inputPanel.add(widthField);
-        inputPanel.add(new JLabel("Height:"));
+
+        JLabel heightLabel = new JLabel("Height:");
+        heightLabel.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        heightLabel.setForeground(new Color(0x2D2D2D));
+        inputPanel.add(heightLabel);
+
         heightField = new JTextField(5);
+        heightField.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        heightField.setBackground(new Color(0xFFFFFF));
+        heightField.setForeground(new Color(0x2D2D2D));
+        heightField.setBorder(BorderFactory.createLineBorder(new Color(0xE0E0E0), 1));
         inputPanel.add(heightField);
 
         elementComboBox = new JComboBox<>(new String[]{"krevet", "sto", "vrata", "ormar", "bojler", "kada", "lavabo", "vesMasina", "wcSolja"});
+        elementComboBox.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        elementComboBox.setBackground(new Color(0xFFFFFF));
+        elementComboBox.setForeground(new Color(0x2D2D2D));
+        elementComboBox.setBorder(BorderFactory.createLineBorder(new Color(0xE0E0E0), 1));
         inputPanel.add(elementComboBox);
 
         add(inputPanel, BorderLayout.NORTH);
 
-        // Lista dodatih elemenata
+        // Style list
         elementListModel = new DefaultListModel<>();
         elementList = new JList<>(elementListModel);
+        elementList.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        elementList.setBackground(new Color(0xFFFFFF));
+        elementList.setForeground(new Color(0x2D2D2D));
+        elementList.setBorder(BorderFactory.createLineBorder(new Color(0xE0E0E0), 1));
         JScrollPane scrollPane = new JScrollPane(elementList);
+        scrollPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         add(scrollPane, BorderLayout.CENTER);
 
-        // Dugmad
-        JPanel buttonPanel = new JPanel();
+        // Style button panel
+        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 10));
+        buttonPanel.setBackground(new Color(0xFAFAFA));
+        buttonPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+
         addButton = new JButton("Dodaj");
         deleteAllButton = new JButton("Obriši sve");
         submitButton = new JButton("Unesi");
+
+        styleButton(addButton);
+        styleButton(deleteAllButton);
+        styleButton(submitButton);
 
         buttonPanel.add(addButton);
         buttonPanel.add(deleteAllButton);
@@ -71,6 +109,59 @@ public class RoomOrganizer extends JFrame {
         add(buttonPanel, BorderLayout.SOUTH);
 
         setupListeners();
+    }
+
+    private void styleButton(JButton button) {
+        button.setOpaque(false);
+        button.setFont(new Font("Segoe UI", Font.BOLD, 13));
+        button.setForeground(new Color(0x2D2D2D));
+        button.setBorder(BorderFactory.createEmptyBorder(8, 12, 8, 12));
+        button.setFocusPainted(false);
+        button.setContentAreaFilled(false);
+        button.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
+        button.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                button.setBackground(new Color(0xE8ECEF));
+            }
+            @Override
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                button.setBackground(null);
+            }
+            @Override
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                button.setBackground(new Color(0xB0B0B0));
+            }
+            @Override
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                button.setBackground(button.getModel().isRollover() ? new Color(0xE8ECEF) : null);
+            }
+        });
+
+        button.setUI(new javax.swing.plaf.basic.BasicButtonUI() {
+            @Override
+            protected void paintButtonPressed(Graphics g, AbstractButton b) {
+                Graphics2D g2d = (Graphics2D) g.create();
+                g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+                g2d.setColor(new Color(0xB0B0B0));
+                g2d.fill(new RoundRectangle2D.Float(0, 0, b.getWidth(), b.getHeight(), 8, 8));
+                g2d.dispose();
+            }
+
+
+            protected void paintBackground(Graphics g, AbstractButton b) {
+                Graphics2D g2d = (Graphics2D) g.create();
+                g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+                if (b.getModel().isRollover()) {
+                    g2d.setColor(new Color(0xE8ECEF));
+                } else {
+                    g2d.setColor(new Color(0xFAFAFA));
+                }
+                g2d.fill(new RoundRectangle2D.Float(0, 0, b.getWidth(), b.getHeight(), 8, 8));
+                g2d.dispose();
+            }
+        });
     }
 
     private void setupListeners() {

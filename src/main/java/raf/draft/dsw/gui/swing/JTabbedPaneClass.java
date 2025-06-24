@@ -28,13 +28,40 @@ public class JTabbedPaneClass extends JPanel implements ITreeObserver {
     private Map<String, RoomView> roomViewMap = new HashMap<>();
 
     public JTabbedPaneClass(Mediator mediator) {
-        setBackground(new Color(0xe6ecf5));
         this.mediator = mediator;
+        setBackground(new Color(0xF5F6F5));
         setLayout(new BorderLayout());
+
         projectNameLabel = new JLabel(label);
         projectNameLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        projectNameLabel.setFont(new Font("Segoe UI", Font.BOLD, 16));
+        projectNameLabel.setForeground(new Color(0x333333));
+        projectNameLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0)); // Padding
         add(projectNameLabel, BorderLayout.NORTH);
+
         tabbedPane = new JTabbedPane();
+        tabbedPane.setFont(new Font("Segoe UI", Font.PLAIN, 12));
+        tabbedPane.setBackground(new Color(0xF5F6F5));
+        tabbedPane.setBorder(BorderFactory.createEmptyBorder());
+        // Custom tab rendering
+        tabbedPane.setUI(new javax.swing.plaf.basic.BasicTabbedPaneUI() {
+            @Override
+            protected void paintTabBackground(Graphics g, int tabPlacement, int tabIndex, int x, int y, int w, int h, boolean isSelected) {
+                Graphics2D g2d = (Graphics2D) g;
+                g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+                if (isSelected) {
+                    g2d.setColor(new Color(0x0078D7)); // Blue for selected tab
+                } else {
+                    g2d.setColor(new Color(0xE0E0E0)); // Gray for unselected
+                }
+                g2d.fillRect(x, y, w, h);
+            }
+
+            @Override
+            protected void paintTabBorder(Graphics g, int tabPlacement, int tabIndex, int x, int y, int w, int h, boolean isSelected) {
+                // No border for cleaner look
+            }
+        });
         add(tabbedPane, BorderLayout.CENTER);
 
         tabbedPane.addChangeListener(e -> {
@@ -42,8 +69,8 @@ public class JTabbedPaneClass extends JPanel implements ITreeObserver {
             if (selectedIndex != -1) {
                 JScrollPane scrollPane = (JScrollPane) tabbedPane.getComponentAt(selectedIndex);
                 RoomView selectedRoomView = (RoomView) scrollPane.getViewport().getView();
-                mediator.setRoomView(selectedRoomView); // Postavljanje trenutnog RoomView-a u mediator
-                mediator.getStateMenager().setCurretState(null); // Resetovanje stanja pri promeni sobe
+                mediator.setRoomView(selectedRoomView);
+                mediator.getStateMenager().setCurretState(null);
             }
         });
     }
