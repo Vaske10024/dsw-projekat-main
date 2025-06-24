@@ -1,0 +1,49 @@
+{
+  "@class" : "room",
+  "id" : 13,
+  "naziv" : "Soba 969",
+  "putanjaDoProjekta" : null,
+  "parent" : [ "raf.draft.dsw.model.structures.Building", {
+    "id" : 12,
+    "naziv" : "Building90",
+    "putanjaDoProjekta" : null,
+    "parent" : [ "raf.draft.dsw.model.structures.Project", {
+      "id" : 11,
+      "naziv" : "Project 1",
+      "putanjaDoProjekta" : null,
+      "parent" : [ "raf.draft.dsw.model.structures.ProjectExplorer", {
+        "id" : 10,
+        "naziv" : "Project Explorer",
+        "putanjaDoProjekta" : null,
+        "parent" : null,
+        "children" : [ "java.util.ArrayList", [ 11 ] ],
+        "ime" : null,
+        "autor" : null
+      } ],
+      "children" : [ "java.util.ArrayList", [ 12 ] ],
+      "projectSpecificField" : null,
+      "changed" : false,
+      "autor" : "NEZNANI AUTOR"
+    } ],
+    "children" : [ "java.util.ArrayList", [ 13 ] ],
+    "color" : [ "java.awt.Color", "#391d8bff" ]
+  } ],
+  "children" : [ "java.util.ArrayList", [ [ "raf.draft.dsw.model.structures.Elementi.Bojler", {
+    "id" : 1,
+    "naziv" : "Default Bojler",
+    "putanjaDoProjekta" : null,
+    "parent" : 13,
+    "lokacijaX" : 118,
+    "lokacijaY" : 163,
+    "width" : 121,
+    "height" : 121,
+    "rotacija" : 0
+  } ] ] ],
+  "color" : [ "java.awt.Color", "#391d8bff" ],
+  "width" : 567,
+  "height" : 567,
+  "roomOffset" : [ "java.awt.Point", {
+    "x" : 0,
+    "y" : 0
+  } ]
+}

@@ -1,0 +1,282 @@
+[console][04.11.2024 14:43:05] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 14:47:09] Invalid name. Rename operation canceled.
+[GRESKA][04.11.2024 14:55:39] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 14:55:51] No node selected for removal.
+[GRESKA][04.11.2024 15:08:01] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 15:13:02] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 15:13:29] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 15:13:37] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 15:14:12] Cannot remove the root ProjectExplorer node.
+[GRESKA][04.11.2024 15:21:41] Cannot remove the root ProjectExplorer node.
+[GRESKA][05.11.2024 18:19:02] Cannot remove the root ProjectExplorer node.
+[GRESKA][05.11.2024 18:19:57] No node selected for removal.
+[GRESKA][05.11.2024 18:20:02] No node selected for renaming.
+[GRESKA][05.11.2024 18:22:52] Selektujte Cvor
+[GRESKA][05.11.2024 18:22:54] Selektujte Cvor
+[GRESKA][05.11.2024 18:23:13] Selektujte Cvor
+[GRESKA][05.11.2024 18:23:18] No node selected for renaming.
+[GRESKA][05.11.2024 18:23:28] Selektujte Cvor
+[GRESKA][05.11.2024 18:23:33] No node selected for removal.
+[GRESKA][05.11.2024 18:23:44] Invalid name. Rename operation canceled.
+[GRESKA][05.11.2024 18:23:51] Invalid name. Rename operation canceled.
+[INFO][05.11.2024 18:26:09] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[INFO][05.11.2024 18:26:50] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][05.11.2024 18:26:52] Deleting System32.exe
+[INFO][05.11.2024 18:27:52] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][05.11.2024 18:27:54] Deleting System32.exe...
+[GRESKA][05.11.2024 18:27:55] 3
+[GRESKA][05.11.2024 18:27:56] 2
+[GRESKA][05.11.2024 18:27:56] 1
+[GRESKA][05.11.2024 18:27:57] Prenk hehe
+[INFO][05.11.2024 18:28:02] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][05.11.2024 18:28:20] Deleting System32.exe...
+[GRESKA][05.11.2024 18:28:21] 3
+[GRESKA][05.11.2024 18:28:22] 2
+[GRESKA][05.11.2024 18:28:22] 1
+[GRESKA][05.11.2024 18:28:22] Prenk hehe
+[INFO][05.11.2024 22:22:34] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][05.11.2024 22:22:38] Deleting System32.exe...
+[GRESKA][05.11.2024 22:22:41] 3
+[GRESKA][05.11.2024 22:22:42] 2
+[GRESKA][05.11.2024 22:22:43] 1
+[GRESKA][05.11.2024 22:22:44] Prenk hehe
+[GRESKA][05.11.2024 22:23:19] Cannot remove the root ProjectExplorer node.
+[INFO][06.11.2024 01:33:29] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][06.11.2024 01:33:30] Deleting System32.exe...
+[GRESKA][06.11.2024 01:33:30] 3
+[GRESKA][06.11.2024 01:33:30] 2
+[GRESKA][06.11.2024 01:33:31] 1
+[GRESKA][06.11.2024 01:33:31] Prenk hehe
+[GRESKA][06.11.2024 01:40:04] IZLAZ NIJE OPCIJA 
+[GRESKA][06.11.2024 01:43:07] IZLAZ NIJE OPCIJA 
+[GRESKA][06.11.2024 01:43:18] IZLAZ NIJE OPCIJA 
+[GRESKA][06.11.2024 01:43:27] Invalid name. Rename operation canceled.
+[GRESKA][06.11.2024 01:43:37] IZLAZ NIJE OPCIJA 
+[GRESKA][06.11.2024 01:46:47] IZLAZ NIJE OPCIJA 
+[INFO][06.11.2024 02:03:19] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][06.11.2024 02:03:20] Deleting System32.exe...
+[GRESKA][06.11.2024 02:03:21] 3
+[GRESKA][06.11.2024 02:03:21] 2
+[GRESKA][06.11.2024 02:03:21] 1
+[GRESKA][06.11.2024 02:03:21] Prenk hehe
+[GRESKA][06.11.2024 02:03:26] IZLAZ NIJE OPCIJA 
+[GRESKA][09.11.2024 19:03:17] Invalid name. Rename operation canceled.
+[GRESKA][09.11.2024 19:14:01] Invalid name. Reautoring operation canceled.
+[GRESKA][09.11.2024 19:14:38] Mozes samo projekat da reautorujes
+[GRESKA][09.11.2024 20:58:51] Vec postoji to ime
+[GRESKA][09.11.2024 20:59:16] Vec postoji to ime
+[GRESKA][09.11.2024 20:59:27] Vec postoji to ime
+[GRESKA][09.11.2024 20:59:48] Invalid name. Rename operation canceled.
+[GRESKA][09.11.2024 20:59:50] Invalid name. Rename operation canceled.
+[GRESKA][09.11.2024 20:59:55] Mozes samo projekat da reautorujes
+[GRESKA][10.11.2024 17:53:58] IZLAZ NIJE OPCIJA 
+[INFO][10.11.2024 17:54:20] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][10.11.2024 17:54:21] Deleting System32.exe...
+[GRESKA][10.11.2024 17:54:21] 3
+[GRESKA][10.11.2024 17:54:22] 2
+[GRESKA][10.11.2024 17:54:22] 1
+[GRESKA][10.11.2024 17:54:23] Prenk hehe
+[INFO][10.11.2024 18:19:46] Soba je najmanja struktura!!!!!!!!!!!!!!!!!! Dobar pokusaj  hehe
+[GRESKA][10.11.2024 18:19:47] Deleting System32.exe...
+[GRESKA][10.11.2024 18:19:48] 3
+[GRESKA][10.11.2024 18:19:48] 2
+[GRESKA][10.11.2024 18:19:49] 1
+[GRESKA][10.11.2024 18:19:49] Prenk hehe
+[GRESKA][10.11.2024 18:39:40] Cannot remove the root ProjectExplorer node.
+[GRESKA][10.11.2024 18:45:44] Vec postoji to ime
+[GRESKA][11.11.2024 14:41:50] Mozes samo projekat da reautorujes
+[GRESKA][10.11.2024 18:55:25] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:55:29] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:55:32] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:55:40] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:57:32] Mozes samo projekat da reautorujes
+[GRESKA][10.11.2024 18:57:37] Mozes samo projekat da reautorujes
+[GRESKA][10.11.2024 18:57:46] Invalid name. Rename operation canceled.
+[GRESKA][10.11.2024 18:58:01] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:58:04] Invalid name. Reautoring operation canceled.
+[GRESKA][10.11.2024 18:58:07] IZLAZ NIJE OPCIJA 
+[INFO][11.11.2024 18:35:50] Soba je najmanja struktura!
+[GRESKA][11.11.2024 18:59:14] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:00:13] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:00:15] Cannot remove the root ProjectExplorer node.
+[INFO][11.11.2024 19:00:34] Soba je najmanja struktura!
+[GRESKA][11.11.2024 19:02:11] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:02:17] Invalid name. Rename operation canceled.
+[GRESKA][11.11.2024 19:07:14] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:11:09] Ne moze
+[GRESKA][11.11.2024 19:11:45] Ne moze
+[GRESKA][11.11.2024 19:11:46] Ne moze
+[GRESKA][11.11.2024 19:11:47] Ne moze
+[GRESKA][11.11.2024 19:11:47] Ne moze
+[GRESKA][11.11.2024 19:11:47] Ne moze
+[GRESKA][11.11.2024 19:11:47] Ne moze
+[GRESKA][11.11.2024 19:11:47] Ne moze
+[GRESKA][11.11.2024 19:11:49] Ne moze
+[GRESKA][11.11.2024 19:14:35] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:14:37] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:14:37] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:14:38] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:14:41] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:20:17] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:20:19] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:01:20] Cannot remove the root ProjectExplorer node.
+[GRESKA][11.11.2024 19:01:25] Mozes samo projekat da reautorujes
+[GRESKA][11.11.2024 19:26:27] Invalid name. Rename operation canceled.
+[GRESKA][11.11.2024 19:34:40] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:35:51] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:35:52] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:35:52] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:35:52] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:42:16] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:42:18] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:42:18] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 19:42:22] Cannot remove the root ProjectExplorer node.
+[INFO][11.11.2024 19:46:24] Soba je najmanja struktura!
+[INFO][11.11.2024 19:46:43] Soba je najmanja struktura!
+[GRESKA][11.11.2024 19:55:13] Mozes samo projekat da reautorujes
+[GRESKA][11.11.2024 20:01:57] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:02:06] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:02:09] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:02:09] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:02:09] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:02:10] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:07] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:10] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:11] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:11] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:26] Ne mozete menjati ime project exploreru
+[GRESKA][11.11.2024 20:05:30] Invalid name. Rename operation canceled.
+[GRESKA][11.11.2024 20:05:43] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:43] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:44] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:05:44] Samo Projekat ima autora
+[INFO][11.11.2024 20:22:35] Soba je najmanja struktura!
+[GRESKA][11.11.2024 20:31:12] Samo Projekat ima autora
+[GRESKA][11.11.2024 20:35:31] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:06:57] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:06:57] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:06:59] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:07:01] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:07:04] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:07:12] Invalid name. Reautoring operation canceled.
+[GRESKA][12.11.2024 16:07:20] Invalid name. Reautoring operation canceled.
+[GRESKA][12.11.2024 16:07:26] Invalid name. Reautoring operation canceled.
+[GRESKA][12.11.2024 16:07:33] Invalid name. Reautoring operation canceled.
+[GRESKA][12.11.2024 16:08:09] Samo Projekat ima autora
+[GRESKA][12.11.2024 16:08:14] Invalid name. Rename operation canceled.
+[GRESKA][12.11.2024 16:08:21] Cannot remove the root ProjectExplorer node.
+[GRESKA][12.11.2024 16:08:26] Cannot remove the root ProjectExplorer node.
+[INFO][02.12.2024 19:30:11] Soba je najmanja struktura!
+[GRESKA][12.11.2024 14:06:47] Cannot remove the root ProjectExplorer node.
+[GRESKA][12.11.2024 14:06:48] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 14:06:49] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 14:06:49] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 14:06:50] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 14:06:50] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 14:06:50] Ne mozete menjati ime project exploreru
+[INFO][12.11.2024 16:16:53] Soba je najmanja struktura!
+[GRESKA][12.11.2024 16:26:55] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 16:27:14] Ne mozete menjati ime project exploreru
+[GRESKA][12.11.2024 16:27:43] Ne mozete menjati ime project exploreru
+[INFO][12.11.2024 16:28:11] Soba je najmanja struktura!
+[INFO][12.11.2024 16:28:20] Soba je najmanja struktura!
+[GRESKA][12.11.2024 16:28:29] Vec postoji to ime
+[GRESKA][12.11.2024 16:30:57] Invalid name. Rename operation canceled.
+[INFO][17.11.2024 14:12:32] Soba je najmanja struktura!
+[INFO][17.11.2024 14:12:34] Soba je najmanja struktura!
+[GRESKA][17.11.2024 14:12:42] Samo Projekat ima autora
+[GRESKA][17.11.2024 14:12:49] Samo Projekat ima autora
+[INFO][26.11.2024 22:37:44] Soba je najmanja struktura!
+[GRESKA][02.12.2024 01:16:02] Samo Projekat ima autora
+[GRESKA][02.12.2024 01:16:03] Samo Projekat ima autora
+[GRESKA][02.12.2024 01:16:03] Samo Projekat ima autora
+[GRESKA][02.12.2024 01:16:04] Samo Projekat ima autora
+[GRESKA][05.12.2024 14:02:44] Invalid name. Rename operation canceled.
+[GRESKA][07.12.2024 19:37:22] Invalid name. Rename operation canceled.
+
+[GRESKA][13.12.2024 23:16:37] Invalid name. Rename operation canceled.
+[GRESKA][14.12.2024 00:10:14] Samo Projekat ima autora
+[GRESKA][14.12.2024 00:16:15] Samo Projekat ima autora
+[GRESKA][14.12.2024 00:21:14] Cannot remove the root ProjectExplorer node.
+[GRESKA][14.12.2024 00:21:16] Ne mozete menjati ime project exploreru
+[GRESKA][14.12.2024 00:21:17] Samo Projekat ima autora
+[GRESKA][14.12.2024 02:02:57] Samo Projekat ima autora
+[GRESKA][23.12.2024 16:17:55] Cannot remove the root ProjectExplorer node.
+[GRESKA][23.12.2024 17:11:16] Cannot remove the root ProjectExplorer node.
+[GRESKA][24.12.2024 02:39:39] Cannot remove the root ProjectExplorer node.
+[GRESKA][24.12.2024 14:13:32] Soba nije pronađena u stablu.
+[GRESKA][24.12.2024 15:30:44] Cannot remove the root ProjectExplorer node.
+[GRESKA][24.12.2024 17:49:04] Element nije pronađen u stablu.
+[GRESKA][24.12.2024 18:03:49] Soba nije pronađena u stablu.
+[GRESKA][24.12.2024 18:24:55] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 14:22:56] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 15:25:47] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 15:57:33] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 15:57:36] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:03:07] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:19:54] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:21:02] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:25:42] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:26:50] Element nije pronađen u stablu.
+[GRESKA][04.01.2025 16:28:22] Element nije pronađen u stablu.
+[GRESKA][05.01.2025 18:57:38] Cannot remove the root ProjectExplorer node.
+[GRESKA][07.01.2025 18:49:17] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 18:49:19] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 18:49:19] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 18:49:20] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 18:49:20] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 18:49:20] Soba nije pronađena u stablu.
+[GRESKA][07.01.2025 19:19:55] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:56] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:57] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:58] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:58] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:58] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:58] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:59] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:19:59] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:00] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:00] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:00] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:00] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:01] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:02] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:03] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:03] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:03] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:03] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:03] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:04] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:05] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:05] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:05] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:06] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:06] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:06] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:06] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:06] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:07] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:07] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:07] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:08] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:08] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:08] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:08] Element nije pronađen u stablu.
+[GRESKA][07.01.2025 19:20:09] Element nije pronađen u stablu.
